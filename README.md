@@ -21,4 +21,4 @@ You can go through the steps using files in [code/](code/). I recommend to first
 
 ## Note:
 
-[code with all intermediate files/](code with all intermediate files/) contains all the files generated during the table generation process.
+Folder "code with all intermediate files" contains all the files generated during the table generation process.
