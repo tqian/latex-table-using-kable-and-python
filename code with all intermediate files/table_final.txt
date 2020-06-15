@@ -1,0 +1,37 @@
+\begin{table}
+
+\caption{\label{tab:}caption for simulation}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}[t]{cccccccccccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{1}{c}{ } & \multicolumn{5}{c}{$\beta_0$} & \multicolumn{5}{c}{$\beta_1$} \\
+\cmidrule(l{3pt}r{3pt}){3-7} \cmidrule(l{3pt}r{3pt}){8-12}
+Estimator & Sample size & Bias & RMSE & SD & CP (unadj) & CP (adj) & Bias & RMSE & SD & CP (unadj) & CP (adj)\\
+\midrule
+ & 30 & -0.06 & 0.19 & 0.19 & 0.95 & 0.96 & 0.16 & 0.30 & 0.25 & 0.91 & 0.92\\
+
+ & 50 & -0.06 & 0.16 & 0.14 & 0.96 & 0.96 & 0.16 & 0.25 & 0.20 & 0.90 & 0.90\\
+
+\multirow{-3}{*}{\centering\arraybackslash Eff} & 100 & -0.06 & 0.12 & 0.11 & 0.94 & 0.94 & 0.15 & 0.21 & 0.14 & 0.84 & 0.85\\
+\cmidrule{1-12}
+ & 30 & 0.00 & 0.17 & 0.17 & 0.94 & 0.96 & 0.02 & 0.25 & 0.24 & 0.94 & 0.95\\
+
+ & 50 & -0.01 & 0.13 & 0.13 & 0.95 & 0.96 & 0.01 & 0.20 & 0.19 & 0.94 & 0.95\\
+
+\multirow{-3}{*}{\centering\arraybackslash WCLS} & 100 & 0.00 & 0.10 & 0.10 & 0.94 & 0.94 & 0.00 & 0.14 & 0.14 & 0.95 & 0.95\\
+\cmidrule{1-12}
+ & 30 & -0.30 & 0.35 & 0.17 & 0.62 & 0.66 & 0.08 & 0.25 & 0.24 & 0.95 & 0.96\\
+
+ & 50 & -0.30 & 0.33 & 0.14 & 0.40 & 0.43 & 0.07 & 0.20 & 0.19 & 0.94 & 0.94\\
+
+\multirow{-3}{*}{\centering\arraybackslash BRM} & 100 & -0.30 & 0.32 & 0.10 & 0.12 & 0.13 & 0.06 & 0.15 & 0.14 & 0.94 & 0.94\\
+\cmidrule{1-12}
+ & 30 & -0.30 & 0.35 & 0.17 & 0.59 & 0.62 & 0.08 & 0.25 & 0.24 & 0.93 & 0.95\\
+
+ & 50 & -0.31 & 0.33 & 0.14 & 0.39 & 0.41 & 0.07 & 0.20 & 0.19 & 0.93 & 0.93\\
+
+\multirow{-3}{*}{\centering\arraybackslash GEE} & 100 & -0.30 & 0.32 & 0.10 & 0.12 & 0.12 & 0.06 & 0.15 & 0.14 & 0.93 & 0.93\\
+\bottomrule
+\end{tabular}}
+\end{table}
