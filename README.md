@@ -19,6 +19,6 @@ You can go through the steps using files in [code/](code/). I recommend to first
 3. Copy-paste everything in table_final.txt to [latex_file_to_show_table.tex](code/latex_file_to_show_table.tex) and generate a pdf using your LaTeX software. This pdf should look the same as [final_result.pdf](final_result.pdf).
 
 
-## Note:
+## Note
 
 Folder "code with all intermediate files" contains all the files generated during the table generation process.
